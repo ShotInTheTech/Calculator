@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regan's Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Regan's Calculator</h1>
+    <label for="totalParts">Total Parts:</label>
+    <input type="number" id="totalParts" min="1">
+    <br>
+    <label for="feet">Feet:</label>
+    <input type="number" id="feet" min="0">
+    <label for="inches">Inches:</label>
+    <input type="number" id="inches" min="0" max="11">
+    <label for="fractions">Fractions of an Inch:</label>
+    <select id="fractions">
+        <option value="0">0/16</option>
+        <option value="1">1/16</option>
+        <option value="2">2/16</option>
+        <!-- Add more fractions as needed -->
+    </select>
+    <br>
+    <button onclick="calculate()">Calculate</button>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
