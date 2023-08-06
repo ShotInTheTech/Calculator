@@ -30,7 +30,13 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
 #result {
     text-align: center;
     font-weight: bold;
