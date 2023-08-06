@@ -1,5 +1,5 @@
 // service-worker.js
-const CACHE_NAME = 'feet-inches-calculator-cache-v1';
+const CACHE_NAME = 'regan-calculator-cache-v1';
 const urlsToCache = [
     './',
     'index.html',
