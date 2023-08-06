@@ -1,7 +1,7 @@
 // manifest.json
 {
-    "name": "Feet & Inches Calculator",
-    "short_name": "FeetCalc",
+    "name": "Regan's Calculator",
+    "short_name": "OnThatNote",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",
